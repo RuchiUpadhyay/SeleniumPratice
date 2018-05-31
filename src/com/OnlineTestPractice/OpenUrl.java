@@ -75,6 +75,8 @@ public class OpenUrl {
 		//driver.findElement(By.xpath("//*[@id='TauxInteret']")).sendKeys("5%");
 	    driver.findElement(By.xpath("//*[@id='btn_calculer']")).click();
 	 driver.findElement(By.xpath("//*[@id='btn_calculer']")).click();
+	 
+	 driver.close();
 }
 }
 
